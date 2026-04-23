@@ -26,3 +26,9 @@ vim.opt.clipboard = "unnamedplus"
 
 require("benoto.lazy_init")
 
+-- Automation: When opening cmd go to insert mode
+vim.api.nvim_create_autocmd("TermOpen", {
+  callback = function()
+    vim.cmd("startinsert")
+  end,
+})
