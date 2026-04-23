@@ -2,6 +2,7 @@
 
 - space + w => Save file
 - space + x => save and quit
+- space + q => quit
 - space + bb => open specific buffer (with one letter of it)
 - space + c => delete / close current buffer
 - ctrl + hjkl => move in split interface

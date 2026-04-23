@@ -12,6 +12,8 @@ vim.keymap.set('n', '<C-k>', '<C-w>k')
 vim.keymap.set('n', '<leader>e', ':Telescope file_browser<CR>')
 vim.keymap.set("n", "<leader>n", ":enew<CR>")
 
+vim.keymap.set("n", "<leader>q", ":q<CR>")
+
 -- Terminal
 vim.keymap.set('n', '<leader>t', ':botright split | resize 12% | terminal<CR>')
 vim.keymap.set('t', '<Esc>', [[<C-\><C-n>]])
