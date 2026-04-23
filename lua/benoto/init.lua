@@ -17,6 +17,8 @@ vim.o.incsearch = true
 
 vim.o.scrolloff = 8
 
+vim.o.splitbelow = true
+
 -- Keymappings
 require("benoto.remap")
 
