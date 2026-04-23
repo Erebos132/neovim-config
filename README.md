@@ -35,3 +35,5 @@
 -- LSP
 - gd => Go to definition (lists all if multiple)
 - gr => show all references
+- space + rn => rename variable
+- space + k => show error

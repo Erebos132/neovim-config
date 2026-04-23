@@ -27,6 +27,7 @@ vim.keymap.set("t", "<C-l>", [[<C-\><C-n><C-w>l]])
 vim.keymap.set("n", "gd", vim.lsp.buf.definition)
 vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename)
 vim.keymap.set("n", "gr", vim.lsp.buf.references)
+vim.keymap.set("n", "<leader>k", vim.diagnostic.open_float)
 
 -- Greates Keymap ever!
 vim.keymap.set("x", "<leader>p", "\"_dP")
