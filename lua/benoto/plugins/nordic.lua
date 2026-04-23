@@ -3,7 +3,7 @@ return {
     lazy = false,
     config = function()
         require("nordic").setup({
-            telescope = { style = "classic" },
+            telescope = { style = "flat" },
         })
         require('nordic').load()
     end,
