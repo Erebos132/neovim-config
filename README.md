@@ -10,18 +10,18 @@
 - space + n => create new empty buffer
 - space + h => home screen
 
--- Telescope
+## Telescope
 - space + ff => search file across folders
 - space + fg => search in files across folders
 - space + fb => search in current buffers
 - sapce + fh => search all help files available 
 
--- Harpoon
+## Harpoon
 - space + a => add current file to quick-menu
 - space + d => show quick-menu
 - space + 1-4 => go to 1/2/3/4 file in quick-menu
 
--- File Browser
+## File Browser
 - space + e => open
 - alt + c => create new file / directory
 - alt + d => delete current selection
@@ -29,11 +29,11 @@
 - backspace => go back one folder
 - m => move
 
--- Terminal
+## Terminal
 - space + t => create new
 - esc => go back to normal mode
 
--- LSP
+## LSP
 - gd => Go to definition (lists all if multiple)
 - gr => show all references
 - space + rn => rename variable
