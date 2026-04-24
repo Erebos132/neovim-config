@@ -14,7 +14,8 @@
 - space + ff => search file across folders
 - space + fg => search in files across folders
 - space + fb => search in current buffers
-- sapce + fh => search all help files available 
+- space + fh => search all help files available 
+- space + fr => search recent files
 
 ## Harpoon
 - space + a => add current file to quick-menu

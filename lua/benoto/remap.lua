@@ -9,7 +9,6 @@ vim.keymap.set('n', '<C-h>', '<C-w>h')
 vim.keymap.set('n', '<C-l>', '<C-w>l')
 vim.keymap.set('n', '<C-j>', '<C-w>j')
 vim.keymap.set('n', '<C-k>', '<C-w>k')
-vim.keymap.set('n', '<leader>e', ':Telescope file_browser<CR>')
 vim.keymap.set("n", "<leader>n", ":enew<CR>")
 
 vim.keymap.set("n", "<leader>h", ":Alpha<CR>")
@@ -33,3 +32,11 @@ vim.keymap.set("n", "<leader>k", vim.diagnostic.open_float)
 
 -- Greates Keymap ever!
 vim.keymap.set("x", "<leader>p", "\"_dP")
+
+-- Telescope
+vim.keymap.set('n', '<leader>e', ':Telescope file_browser<CR>')
+vim.keymap.set("n", "<leader>ff", ":Telescope find_files<CR>", { desc = "Telescope find files" })
+vim.keymap.set("n", "<leader>fg", ":Telescope live_grep<CR>", { desc = "Telescope live grep" })
+vim.keymap.set('n', '<leader>fb', ":Telescope buffers<CR>", { desc = 'Telescope buffers' })
+vim.keymap.set('n', '<leader>fh', ":Telescope help_tags<CR>", { desc = 'Telescope help tags' })
+vim.keymap.set("n", "<leader>fr", ":Telescope oldfiles<CR>", { desc = "Search old Files with Telescope"})
