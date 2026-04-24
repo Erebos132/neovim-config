@@ -14,6 +14,8 @@ vim.opt.swapfile = false
 vim.o.undofile = true
 vim.opt.undolevels = 2000      -- default is often 1000
 vim.opt.undoreload = 20000     -- max lines to save for undo when reopening
+vim.o.backup = false
+vim.o.writebackup = false
 
 vim.o.hlsearch = false
 vim.o.incsearch = true
@@ -22,7 +24,10 @@ vim.o.smartcase = true
 
 vim.o.scrolloff = 8
 
+vim.opt.timeoutlen = 300
+
 vim.o.splitbelow = true
+vim.o.splitright = true
 
 -- Disable Weird Symbls and texts to the left of code -> Just irritating
 vim.o.signcolumn = "no"
