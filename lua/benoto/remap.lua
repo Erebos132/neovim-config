@@ -40,3 +40,7 @@ vim.keymap.set("n", "<leader>fg", ":Telescope live_grep<CR>", { desc = "Telescop
 vim.keymap.set('n', '<leader>fb', ":Telescope buffers<CR>", { desc = 'Telescope buffers' })
 vim.keymap.set('n', '<leader>fh', ":Telescope help_tags<CR>", { desc = 'Telescope help tags' })
 vim.keymap.set("n", "<leader>fr", ":Telescope oldfiles<CR>", { desc = "Search old Files with Telescope"})
+
+-- Keyboard
+vim.keymap.set({"n", "v"}, "<leader>y", '"+y')
+vim.keymap.set({"n", "v"}, "<leader>p", '"+p')

@@ -1,5 +1,6 @@
 # List of all keybinds currently configured in my own Neovim Configuration
 
+## General
 - space + w => Save file
 - space + x => save and quit
 - space + q => quit
@@ -9,6 +10,8 @@
 - space + e => telescope file browser
 - space + n => create new empty buffer
 - space + h => home screen
+- space + y => Yank to system clipboard
+- space + p => Paste from system clipboard
 
 ## Telescope
 - space + ff => search file across folders
