@@ -8,6 +8,7 @@
 - ctrl + hjkl => move in split interface
 - space + e => telescope file browser
 - space + n => create new empty buffer
+- space + h => home screen
 
 -- Telescope
 - space + ff => search file across folders
