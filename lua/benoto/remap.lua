@@ -12,6 +12,8 @@ vim.keymap.set('n', '<C-k>', '<C-w>k')
 vim.keymap.set('n', '<leader>e', ':Telescope file_browser<CR>')
 vim.keymap.set("n", "<leader>n", ":enew<CR>")
 
+vim.keymap.set("n", "<leader>h", ":Alpha<CR>")
+
 vim.keymap.set("n", "<leader>q", ":q<CR>")
 
 -- Terminal

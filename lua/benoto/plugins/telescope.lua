@@ -8,7 +8,7 @@ return {
 
         'nvim-telescope/telescope-file-browser.nvim',
     },
-    config = function() 
+    config = function()
         local telescope = require("telescope")
         local builtin = require("telescope.builtin")
         vim.keymap.set("n", "<leader>ff", builtin.find_files, { desc = "Telescope find files" })
@@ -22,7 +22,6 @@ return {
                 },
             },
         })
-        
         -- load file browser
         telescope.load_extension("file_browser")
     end,
