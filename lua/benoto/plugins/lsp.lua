@@ -32,6 +32,7 @@ return {{
                 ["<S-Tab>"] = cmp.mapping.select_prev_item(),
             }),
             sources = {
+                { name = 'path' },
                 { name = "nvim_lsp" },
             },
         })

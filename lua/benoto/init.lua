@@ -19,6 +19,8 @@ vim.o.scrolloff = 8
 
 vim.o.splitbelow = true
 
+vim.o.signcolumn = "yes"
+
 -- Keymappings
 require("benoto.remap")
 
