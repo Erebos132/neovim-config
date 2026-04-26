@@ -45,5 +45,7 @@ vim.keymap.set('n', '<leader>fh', ":Telescope help_tags<CR>", { desc = 'Telescop
 vim.keymap.set("n", "<leader>fr", ":Telescope oldfiles<CR>", { desc = "Search old Files with Telescope"})
 
 -- Clipboard
-vim.keymap.set({"n", "v"}, "<leader>y", '"+y')
-vim.keymap.set({"n", "v"}, "<leader>p", '"+p')
+vim.keymap.set("n", "<leader>y", '"+y')
+vim.keymap.set("n", "<leader>p", '"+p')
+vim.keymap.set("v", "<leader>y", '"+y')
+vim.keymap.set("v", "<leader>p", '"+p')
