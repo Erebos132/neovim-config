@@ -15,6 +15,9 @@ vim.keymap.set("n", "<leader>h", ":Alpha<CR>")
 
 vim.keymap.set("n", "<leader>q", ":q<CR>")
 
+-- Lazy
+vim.keymap.set("n", "<leader>l", ":Lazy<CR>")
+
 -- Terminal
 vim.keymap.set('n', '<leader>t', ':botright split | resize 12% | terminal<CR>')
 vim.keymap.set('t', '<Esc>', [[<C-\><C-n>]])
@@ -41,6 +44,6 @@ vim.keymap.set('n', '<leader>fb', ":Telescope buffers<CR>", { desc = 'Telescope 
 vim.keymap.set('n', '<leader>fh', ":Telescope help_tags<CR>", { desc = 'Telescope help tags' })
 vim.keymap.set("n", "<leader>fr", ":Telescope oldfiles<CR>", { desc = "Search old Files with Telescope"})
 
--- Keyboard
+-- Clipboard
 vim.keymap.set({"n", "v"}, "<leader>y", '"+y')
 vim.keymap.set({"n", "v"}, "<leader>p", '"+p')
