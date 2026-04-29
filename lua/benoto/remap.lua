@@ -11,12 +11,17 @@ vim.keymap.set('n', '<C-j>', '<C-w>j')
 vim.keymap.set('n', '<C-k>', '<C-w>k')
 vim.keymap.set("n", "<leader>n", ":enew<CR>")
 
+-- Saving
+vim.keymap.set("i", "<C-s>", "<Esc>:w<CR>")
+vim.keymap.set("n", "<C-s>", ":w<CR>")
+
 vim.keymap.set("n", "<leader>h", ":Alpha<CR>")
 
 vim.keymap.set("n", "<leader>q", ":q<CR>")
 
 -- Lazy
 vim.keymap.set("n", "<leader>l", ":Lazy<CR>")
+vim.keymap.set("n", "<leader>m", ":Mason<CR>")
 
 -- Terminal
 vim.keymap.set('n', '<leader>t', ':botright split | resize 12% | terminal<CR>')

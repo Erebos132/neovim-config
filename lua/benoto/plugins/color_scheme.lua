@@ -1,11 +1,18 @@
 return {
-    'AlexvZyl/nordic.nvim',
-    priority = 1000,
-    lazy = false,
-    config = function()
-        require("nordic").setup({
-            telescope = { style = "flat" },
-        })
-        require('nordic').load()
-    end,
+  "catppuccin/nvim",
+  name = "catppuccin",
+  priority = 1000,
+  opts = {
+      flavour = "mocha",
+      integrations = {
+          treesitter = true,
+          telescope = true,
+          lsp_trouble = true,
+          cmp = true,
+      },
+  },
+  config = function(_, opts) 
+      require("catppuccin").setup(opts)
+    vim.cmd.colorscheme("catppuccin")
+  end
 }

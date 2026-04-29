@@ -22,6 +22,14 @@ vim.o.incsearch = true
 vim.o.ignorecase = true
 vim.o.smartcase = true
 
+-- Disable Continous Comments
+vim.api.nvim_create_autocmd("FileType", {
+  callback = function()
+    vim.opt_local.formatoptions:remove({ "r", "o" })
+  end,
+})
+
+
 vim.o.scrolloff = 8
 
 vim.opt.timeoutlen = 300
