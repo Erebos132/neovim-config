@@ -20,7 +20,7 @@ return {{
     "williamboman/mason-lspconfig.nvim",
     config = function()
         require("mason-lspconfig").setup({
-            ensure_installed = { "pyright" },
+            ensure_installed = { "basedpyright", "rust-analyzer", "html-lsp", "css-lsp" },
         })
     end,
 },
