@@ -30,7 +30,8 @@ vim.api.nvim_create_autocmd("FileType", {
 })
 
 
-vim.o.scrolloff = 8
+-- Always keep x lines buffer to edge of screen
+vim.o.scrolloff = 15
 
 vim.opt.timeoutlen = 300
 
