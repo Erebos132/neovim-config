@@ -2,6 +2,9 @@
 vim.g.mapleader = " "
 vim.keymap.set('n', '<leader>w', ":w<CR>", { desc = 'Save File' })
 vim.keymap.set('n', '<leader>x', ":wq<CR>", { desc = 'Save File and Quit' })
+vim.keymap.set("n", "<leader>q", ":q<CR>")
+vim.keymap.set("n", "<leader>Q", ":qa<CR>", { desc = "Quit all" })
+
 vim.keymap.set('n', '<leader>bb', ':BufferLinePick<CR>', { desc = "Picking Bufer by first letter" })
 vim.keymap.set('n', '<leader>c', ':bd<CR>', { desc = "Delete Currently Selected Buffer" })
 vim.keymap.set('n', '<leader>C', ':bd!<CR>', { desc = "Delete Currently Selected Buffer NO MATTER WHAT" })
@@ -17,7 +20,6 @@ vim.keymap.set("n", "<C-s>", ":w<CR>")
 
 vim.keymap.set("n", "<leader>h", ":Alpha<CR>")
 
-vim.keymap.set("n", "<leader>q", ":q<CR>")
 
 -- Lazy
 vim.keymap.set("n", "<leader>l", ":Lazy<CR>")
@@ -37,6 +39,7 @@ vim.keymap.set("n", "gd", vim.lsp.buf.definition)
 vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename)
 vim.keymap.set("n", "gr", vim.lsp.buf.references)
 vim.keymap.set("n", "<leader>k", vim.diagnostic.open_float)
+vim.keymap.set("n", "<leader>I", ":Inspect<CR>")
 
 -- Greates Keymap ever!
 vim.keymap.set("x", "<leader>p", "\"_dP")
@@ -54,3 +57,5 @@ vim.keymap.set("n", "<leader>y", '"+y')
 vim.keymap.set("n", "<leader>p", '"+p')
 vim.keymap.set("v", "<leader>y", '"+y')
 vim.keymap.set("v", "<leader>p", '"+p')
+vim.keymap.set("t", "<leader>y", '"+y')
+vim.keymap.set("t", "<leader>p", '"+p')
