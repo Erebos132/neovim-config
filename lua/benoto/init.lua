@@ -17,7 +17,7 @@ vim.opt.undoreload = 20000     -- max lines to save for undo when reopening
 vim.o.backup = false
 vim.o.writebackup = false
 
-vim.o.hlsearch = false
+vim.o.hlsearch = true
 vim.o.incsearch = true
 vim.o.ignorecase = true
 vim.o.smartcase = true

@@ -14,6 +14,12 @@ vim.keymap.set('n', '<C-j>', '<C-w>j')
 vim.keymap.set('n', '<C-k>', '<C-w>k')
 vim.keymap.set("n", "<leader>n", ":enew<CR>")
 
+-- Clear search highlighting
+vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
+
+-- Comment
+vim.keymap.set("i", "<C-g>", "<Esc><Cmd>normal gcc<CR>a")
+
 -- Saving
 vim.keymap.set("i", "<C-s>", "<Esc>:w<CR>")
 vim.keymap.set("n", "<C-s>", ":w<CR>")

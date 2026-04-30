@@ -12,6 +12,10 @@
 - space + h => home screen
 - space + y => Yank to system clipboard
 - space + p => Paste from system clipboard
+- ctrl + g => comment current line in insert mode
+
+- space + l => open lazy ui
+- space + m => open mason ui
 
 ## Telescope
 - space + ff => search file across folders
@@ -42,3 +46,9 @@
 - gr => show all references
 - space + rn => rename variable
 - space + k => show error
+- space + I => inspect (-> special errors & highlighting)
+
+### Autocomplete
+- tab => Complete according to suggestion
+- ctrl + d => next suggestion
+- ctrl + u => previous suggestion
