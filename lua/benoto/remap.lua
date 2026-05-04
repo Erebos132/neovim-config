@@ -18,7 +18,7 @@ vim.keymap.set("n", "<leader>n", ":enew<CR>")
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
 
 -- Comment
-vim.keymap.set("i", "<C-g>", "<Esc><Cmd>normal gcc<CR>a")
+vim.keymap.set("i", "<C-g>", "<Esc><Cmd>normal gcc<CR>3la")
 
 -- Saving
 vim.keymap.set("i", "<C-s>", "<Esc>:w<CR>")

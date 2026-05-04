@@ -37,6 +37,13 @@
 - backspace => go back one folder
 - m => move
 
+## Folds
+- za => toggle fold under cursor
+- zo => open fold under cursor
+- zc => close fold under cursor
+- zR => open all folds
+- zM => close all folds
+
 ## Terminal
 - space + t => create new
 - esc => go back to normal mode
