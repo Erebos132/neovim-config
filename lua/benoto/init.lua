@@ -14,6 +14,7 @@ vim.api.nvim_create_autocmd("VimEnter", {
 
 
             -- Optional: clear the unnamed buffer
+            vim.cmd("bd")
             vim.cmd("Alpha")
         end
     end
