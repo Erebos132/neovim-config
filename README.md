@@ -68,8 +68,15 @@
 - space + gc => git commit
 - space + gp => git push
 - space + gP => git pull
+- space + gr => resolve conficts (learn)
+- space + gd => show diffs
+- space + gq => close diffs
+- space + gl => git log
+- space + g => enter ":Git " for custom commands quickly
 
 ### Once inside the UI
 - s => stage for commit
 - - => toggle staging
 - cc => commit
+- dv => show differences vertically
+- dh => show differences horizontally

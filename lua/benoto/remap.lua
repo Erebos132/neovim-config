@@ -68,8 +68,13 @@ vim.keymap.set("t", "<leader>p", '"+p')
 
 
 -- Git
-vim.keymap.set("n", "<leader>gg", ":Git<CR>")
+vim.keymap.set("n", "<leader>gg", ":leftabove vertical Git<CR>")
 vim.keymap.set("n", "<leader>gs", ":Git add %<CR>")
 vim.keymap.set("n", "<leader>gc", ":Git commit<CR>")
 vim.keymap.set("n", "<leader>gp", ":Git push")
 vim.keymap.set("n", "<leader>gP", ":Git pull")
+vim.keymap.set("n", "<leader>g", ":Git ")
+vim.keymap.set("n", "<leader>gl", ":leftabove vertical Git log<CR>")
+vim.keymap.set("n", "<leader>gr", ":Gvdiffsplit<CR>")
+vim.keymap.set("n", "<leader>gd", ":DiffviewOpen<CR>")
+vim.keymap.set("n", "<leader>gq", "<cmd>DiffviewClose<CR>")
