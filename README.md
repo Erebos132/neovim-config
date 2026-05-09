@@ -26,6 +26,7 @@
 
 ### While Searching Open Buffers
 - dd => close selected buffer
+- df => force delete selected buffer
 
 ## Harpoon
 - space + a => add current file to quick-menu

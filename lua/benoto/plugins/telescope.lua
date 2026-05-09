@@ -21,6 +21,11 @@ return {
                 mappings = {
                     n = {
                         ["dd"] = actions.delete_buffer,
+                        ["df"] = function(prompt_bufnr)
+                            local entry = require("telescope.actions.state").get_selected_entry()
+                            vim.cmd("bd! " .. entry.bufnr)
+                            actions.delete_buffer(prompt_bufnr)
+                        end,
                     },
                 },
             },
