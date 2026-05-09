@@ -64,3 +64,12 @@
 ## Git
 - :Git => basically git command line interface
 - space + gg => open :Git
+- space + gs => stage current file for commit
+- space + gc => git commit
+- space + gp => git push
+- space + gP => git pull
+
+### Once inside the UI
+- s => stage for commit
+- - => toggle staging
+- cc => commit

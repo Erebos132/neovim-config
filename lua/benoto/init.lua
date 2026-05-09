@@ -45,7 +45,7 @@ vim.o.splitbelow = true
 vim.o.splitright = true
 
 -- Disable Weird Symbls and texts to the left of code -> Just irritating
-vim.o.signcolumn = "no"
+vim.o.signcolumn = "yes"
 vim.diagnostic.config({
     signs = false,
     float = { border = "rounded" }
