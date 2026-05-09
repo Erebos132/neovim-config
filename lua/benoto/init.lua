@@ -1,6 +1,24 @@
 vim.o.number = true
 vim.o.relativenumber = true
 
+-- Startup when doing nvim /path/to/dir/
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
+vim.api.nvim_create_autocmd("VimEnter", {
+    callback = function (data)
+        local directory = vim.fn.isdirectory(data.file) == 1
+
+        if directory then
+            vim.cmd.cd(data.file)
+
+
+            -- Optional: clear the unnamed buffer
+            vim.cmd("Alpha")
+        end
+    end
+})
+
 vim.o.expandtab = true
 vim.o.shiftwidth = 4
 vim.o.tabstop = 4
