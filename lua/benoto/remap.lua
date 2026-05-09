@@ -65,3 +65,7 @@ vim.keymap.set("v", "<leader>y", '"+y')
 vim.keymap.set("v", "<leader>p", '"+p')
 vim.keymap.set("t", "<leader>y", '"+y')
 vim.keymap.set("t", "<leader>p", '"+p')
+
+
+-- Git
+vim.keymap.set("n", "<leader>gg", ":Git<CR>")

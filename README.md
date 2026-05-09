@@ -59,3 +59,8 @@
 - tab => Complete according to suggestion
 - ctrl + d => next suggestion
 - ctrl + u => previous suggestion
+
+
+## Git
+- :Git => basically git command line interface
+- space + gg => open :Git
