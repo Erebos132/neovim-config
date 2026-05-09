@@ -9,11 +9,19 @@ return {
         'nvim-telescope/telescope-file-browser.nvim',
     },
     config = function()
+        local actions = require("telescope.actions")
         local telescope = require("telescope")
         telescope.setup({
             pickers = {
                 find_files = {
                     hidden = true,
+                },
+            },
+            defaults = {
+                mappings = {
+                    n = {
+                        ["dd"] = actions.delete_buffer,
+                    },
                 },
             },
         })

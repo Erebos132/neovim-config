@@ -24,6 +24,9 @@
 - space + fh => search all help files available 
 - space + fr => search recent files
 
+### While Searching Open Buffers
+- dd => close selected buffer
+
 ## Harpoon
 - space + a => add current file to quick-menu
 - space + d => show quick-menu

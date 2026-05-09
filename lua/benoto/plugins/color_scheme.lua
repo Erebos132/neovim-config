@@ -9,6 +9,7 @@ return {
           telescope = true,
           lsp_trouble = true,
           cmp = true,
+          bufferline = true,
       },
   },
   config = function(_, opts) 
