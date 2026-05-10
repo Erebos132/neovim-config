@@ -1,3 +1,4 @@
+-- Advanced Folding in Neovim using plugin "UFO"
 return {
   "kevinhwang91/nvim-ufo",
   dependencies = {
